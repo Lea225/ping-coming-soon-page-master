@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Franklin:300,600,700&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+  <title>Frontend Mentor | Ping coming soon page</title>
+</head>
+<body>
+<section>
+  <img class="logo" src="https://raw.githubusercontent.com/Lea225/ping-coming-soon-page-master/3ddd169ad33f0305198e8a26e8588fe51b9f4318/images/logo.svg" alt="logo">
+  <h1>We are launching <span>soon!</span></h1>
+  <p>Subscribe and get notified</p>
+  <div class="input-zone">
+    <div class="email-input-error">
+      <input type="email" placeholder="Your email address..." class="email-input" oninput="updatePlaceholder()" onfocus="updatePlaceholder()">
+    <div class="alert-container"></div>
+    </div>
+    <button id="notifyButton">Notify Me</button>
+  </div>
+  <img class="main-img" src="https://github.com/Lea225/ping-coming-soon-page-master/blob/main/images/illustration-dashboard.png?raw=true" alt="illustration-dashboard">
+  <div>
+    <nav>
+      <i class="fa-brands fa-facebook-f"></i>
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-instagram"></i>
+    </nav>
+    <a class="copyright" href="#">&copy; Copyright Ping. All rights reserved.</a>
+  </div>
+</section>
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Léa CHIDAS</a>.
+    </p>
+  </footer>
+</body>
+</html>

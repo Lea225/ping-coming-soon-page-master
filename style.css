@@ -1,0 +1,137 @@
+.attribution { font-size: 11px; text-align: center; margin-top: 5%;}
+.attribution a { color: hsl(228, 45%, 44%);}
+
+body{
+    font-family: 'Libre Franklin',sans-serif;
+    background-color: hsl(0, 0%, 100%);
+}
+section{
+    font-size: 20px;
+    text-align: center;
+}
+.logo{
+    margin-top: 10%;
+}
+h1{
+    color: hsl(0, 0%, 59%);
+    font-weight: 300;
+}
+span{
+    font-weight: 700;
+}
+span,p{
+    
+    color: hsl(209, 33%, 12%);
+}
+.alert-container {
+    font-size: 11px;
+    font-style: italic;
+    color: hsl(354, 100%, 66%);
+}
+i{
+    margin-top: 7%;
+    margin-left: 1%;
+    margin-bottom: 2%;
+    padding: 10px;
+    border-radius: 50%;
+    color: hsl(223, 87%, 63%);
+    border: 1px solid hsla(223, 100%, 88%, 0.3);
+}
+i:hover{
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(223, 87%, 63%);
+}
+i:hover,button:hover{
+    cursor: pointer;
+}
+p{
+    font-size: 0.8em;
+    font-weight: 500;
+    margin-bottom: 3%;
+}
+.email-input::placeholder {
+    color: hsla(223, 100%, 88%,0.8);
+}
+input{
+    border: 1px solid hsl(223, 100%, 88%);
+    border-radius: 50px;
+    padding-left: 20px;
+    height: 6vh;
+}
+.main-img{
+    margin-top: 5%;
+    width: 55%;
+}
+input,button{
+    font-family: 'Libre Franklin',sans-serif;
+}
+.email-input-error{
+    flex-direction: column;
+}
+.input-zone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    background-color: hsl(223, 87%, 63%);
+    border-radius: 50px;
+    margin-bottom: 0.8rem;
+    border: none;
+    color: hsl(0, 0%, 100%);
+    box-shadow: 4px 6px 10px hsla(223, 87%, 63%, 0.7);
+}
+.copyright{
+    font-size: 0.7em;
+    color: hsl(223, 100%, 88%);
+    text-decoration: none;
+}
+@media screen and (max-width: 800px) {
+
+    .input-zone{
+        flex-direction: column;
+    }
+    input{
+        width: 65%;
+        margin-top: 5%;
+    }
+    .email-input-error{
+        width: 100%;
+    }
+    button{
+        margin-top: 2%;
+        margin-bottom: 5%;
+        width: 70% ;
+        height: 7vh;
+    }
+    .alert-container {
+        margin-top: 2%;
+        margin-bottom: 3%;
+    }    
+    .main-img{
+        margin-left: 1rem;
+        margin-top: 10%;
+        width: 100%;
+    }
+    nav{
+        margin-top: 30%;
+    }
+    .logo{
+        margin-top: 20%;
+    }
+    .attribution{
+        margin-top: 20%;
+    }
+}
+@media screen and (min-width: 801px) and (max-width: 1440px) {
+    button{
+        margin-left: 2%;
+        padding: 15px 50px;
+    }
+    input{
+        padding: 3px 50px;
+    }
+    .alert-container {
+        margin-top: 5%;
+    }
+}
